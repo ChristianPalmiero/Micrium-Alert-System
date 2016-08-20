@@ -1,10 +1,10 @@
 # Micrium-Alert-System
-A proximity alert system must be designed and implemented using the following elements:<br />
+A proximity alert system has been designed and implemented using the following elements:<br />
 • The HC-SR04 Ultrasonic Ranging Module;<br />
 • The FRDM-K64F board;<br />
 • The Micrium μC/OS.<br />
-The FRDM-K64F shall read the distance of any object located in front of the HC-SR04 sensor,
-and then it shall operate the RGB led as follows:<br />
+The FRDM-K64F reads the distance of any object located in front of the HC-SR04 sensor,
+and then it operates the RGB led as follows:<br />
 • If the distance of the nearest object is equal or greater than 2 meters the GREEN led
 shall blink with a period of 2.000 ms;<br />
 • If the distance of the nearest object is between 1 and 2 meters the BLUE led shall blink
