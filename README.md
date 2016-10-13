@@ -3,6 +3,7 @@ A proximity alert system has been designed and implemented using the following e
 • The HC-SR04 Ultrasonic Ranging Module;<br />
 • The FRDM-K64F board;<br />
 • The Micrium μC/OS.<br />
+The management of the HC-SR04 has been implemented using the FlexTimer Module (see Freescale “K64 Sub-Family Reference Manual”).<br />
 The FRDM-K64F reads the distance of any object located in front of the HC-SR04 sensor,
 and then it operates the RGB led as follows:<br />
 • If the distance of the nearest object is equal or greater than 2 meters the GREEN led
