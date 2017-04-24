@@ -18,6 +18,6 @@ with a period inversely proportional to the distance, according to the following
 • If the distance of the nearest object is smaller than 1 meter the RED led shall blink
 with a period inversely proportional to the distance, according to the following table:<br />
 
-| Distance [cm] |  <10  | [10-25) | [25-50) |  [50-75) | [75-100) |
-|:-------------:|:---:|:-------:|:-------:|:-------:|:--------:|:-----:|
-| Period [ms]   |  ∞   |  400   |   600   |    800   |   1.000 |
+| Distance [cm] |  <10  | [10-25) | [25-50) |  [50-75) | [75-100) 
+|:-------------:|:---:|:-------:|:-------:|:-------:|:--------:|
+| Period [ms]   |  ∞   |  400   |   600   |    800   |   1.000 
